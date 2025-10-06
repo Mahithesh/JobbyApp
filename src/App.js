@@ -16,7 +16,7 @@ const App = () => (
       <PRoute exact path="/jobs" component={Jobs} />
       <PRoute exact path="/jobs/:id" component={JobDetails} />
       <Route path="/not-found" component={NotFound} />
-      <Redirect to="/not-found" />
+      <Redirect to="not-found" />
     </Switch>
   </div>
 )
