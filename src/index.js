@@ -6,7 +6,9 @@ import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/JobbyApp">
+    <BrowserRouter
+      basename={process.env.NODE_ENV === 'production' ? '/JobbyApp' : ''}
+    >
       <App />
     </BrowserRouter>
   </React.StrictMode>,

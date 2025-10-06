@@ -1,6 +1,5 @@
-
-.NotFound{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.NotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
