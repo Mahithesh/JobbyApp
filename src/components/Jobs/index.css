@@ -11,7 +11,6 @@
     border-bottom: 1px solid #444;
     padding: 18px 8px 8px 8px;
     gap: 18px;
-
   }
   .section-b {
     width: 100vw;
@@ -110,8 +109,8 @@
   color: #fff;
 }
 
-.section-a input[type="checkbox"],
-.section-a input[type="radio"] {
+.section-a input[type='checkbox'],
+.section-a input[type='radio'] {
   accent-color: #fff;
   width: 16px;
   height: 16px;
@@ -147,7 +146,7 @@
   margin: 0 0 24px 0;
   border: 1px solid #444;
   padding: 0 8px;
-  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .searchBar > input {

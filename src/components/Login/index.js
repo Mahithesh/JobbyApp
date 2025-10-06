@@ -56,7 +56,7 @@ class Login extends Component {
               <input
                 id="username"
                 type="text"
-                placeholder="Username"
+                placeholder="Username (rahul)"
                 className="inputField"
                 onChange={event => {
                   this.setState({username: event.target.value})
@@ -69,7 +69,7 @@ class Login extends Component {
               <input
                 id="pass"
                 type="password"
-                placeholder="Password"
+                placeholder="Password (rahul@2021)"
                 className="inputField"
                 value={password}
                 onChange={event => {
@@ -81,6 +81,13 @@ class Login extends Component {
               Login
             </button>
           </form>
+          <div style={{marginTop: '12px', color: '#888', fontSize: '0.98rem'}}>
+            <strong>Demo Credentials:</strong>
+            <br />
+            Username: <span style={{fontWeight: 500}}>rahul</span>
+            <br />
+            Password: <span style={{fontWeight: 500}}>rahul@2021</span>
+          </div>
           {isError ? <p className="eorro">*{errorMsg}</p> : null}
         </div>
       </div>
