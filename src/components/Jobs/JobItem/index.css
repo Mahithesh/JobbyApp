@@ -1,6 +1,9 @@
 .job-li {
   list-style-type: none;
   margin: 0;
+  width: 100%;
+    background-color: transparent;
+    display: block;
 }
 
 .job-link {
@@ -19,7 +22,24 @@
   flex-direction: column;
   gap: 18px;
   width: 100%;
+  min-width: 140vh;
+    height: auto;
   margin: 0;
+  min-height: 320px;
+  }
+  
+  @media (max-width: 900px) {
+    .job-item-card {
+      padding: 16px 8px;
+      min-height: 180px;
+      font-size: 0.95rem;
+      min-width: 300px;
+    }
+  
+    .job-li {
+      min-width: 0;
+      width: 100%;
+    }
 }
 
 .job-item-card:hover {
@@ -35,7 +55,7 @@
 .cmpy-logo {
   width: 60px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 1px;
   object-fit: contain;
 }
 
@@ -79,22 +99,26 @@
   gap: 6px;
   color: #b0b0b0;
   font-size: 1rem;
+  span {
+      font-size: 0.8rem;
+    }
 }
 
 .meta-icon {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   color: #b0b0b0;
 }
 
 .job-salary {
   margin-left: auto;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #fff;
 }
 
 .job-divider {
   border: none;
+  font-size: 0.5rem;
   border-top: 1px solid #444;
   margin: 10px 0 0 0;
 }

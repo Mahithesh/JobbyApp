@@ -6,3 +6,8 @@
   padding: 15px;
   border-radius: 10px;
 }
+.name{
+  color: rgb(255, 0, 0) !important;
+  border: none !important;
+  padding: 0 !important;
+}

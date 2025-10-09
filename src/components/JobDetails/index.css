@@ -1,3 +1,11 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  pointer-events: none;
+  background: transparent;
+}
 @media (max-width: 900px) {
   .jobdetail-item {
     max-width: 98vw;
@@ -236,11 +244,16 @@
   padding: 0;
   list-style: none;
 }
-.similar-jobs-list .job-li {
+.similar-jobs-list {
+  margin: 20px;
+}
+
+.job-li {
   flex: 1 1 260px;
   max-width: 400px;
   min-width: 240px;
-  margin: 0;
+  margin: 0px;
+    padding: 0px;
 }
 .similar-jobs-list .job-item {
   background: #232323;
