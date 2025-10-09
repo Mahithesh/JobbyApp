@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JobbyApp/static/css/main.b90d44ce.chunk.css",
-    "main.js": "/JobbyApp/static/js/main.0e191f92.chunk.js",
-    "main.js.map": "/JobbyApp/static/js/main.0e191f92.chunk.js.map",
+    "main.css": "/JobbyApp/static/css/main.bcbd5f99.chunk.css",
+    "main.js": "/JobbyApp/static/js/main.9c8e08b2.chunk.js",
+    "main.js.map": "/JobbyApp/static/js/main.9c8e08b2.chunk.js.map",
     "runtime-main.js": "/JobbyApp/static/js/runtime-main.304eb01f.js",
     "runtime-main.js.map": "/JobbyApp/static/js/runtime-main.304eb01f.js.map",
-    "static/js/2.7b5f4f92.chunk.js": "/JobbyApp/static/js/2.7b5f4f92.chunk.js",
-    "static/js/2.7b5f4f92.chunk.js.map": "/JobbyApp/static/js/2.7b5f4f92.chunk.js.map",
+    "static/js/2.a14f1bf1.chunk.js": "/JobbyApp/static/js/2.a14f1bf1.chunk.js",
+    "static/js/2.a14f1bf1.chunk.js.map": "/JobbyApp/static/js/2.a14f1bf1.chunk.js.map",
     "index.html": "/JobbyApp/index.html",
-    "static/css/main.b90d44ce.chunk.css.map": "/JobbyApp/static/css/main.b90d44ce.chunk.css.map",
-    "static/js/2.7b5f4f92.chunk.js.LICENSE.txt": "/JobbyApp/static/js/2.7b5f4f92.chunk.js.LICENSE.txt"
+    "static/css/main.bcbd5f99.chunk.css.map": "/JobbyApp/static/css/main.bcbd5f99.chunk.css.map",
+    "static/js/2.a14f1bf1.chunk.js.LICENSE.txt": "/JobbyApp/static/js/2.a14f1bf1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.304eb01f.js",
-    "static/js/2.7b5f4f92.chunk.js",
-    "static/css/main.b90d44ce.chunk.css",
-    "static/js/main.0e191f92.chunk.js"
+    "static/js/2.a14f1bf1.chunk.js",
+    "static/css/main.bcbd5f99.chunk.css",
+    "static/js/main.9c8e08b2.chunk.js"
   ]
 }
